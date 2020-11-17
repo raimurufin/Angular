@@ -1,0 +1,5 @@
+Identificación del cobrador
+Estos son tu Id de cobrador y tu llave de cobrador para crear páginas de pago y acceder a la API de khipu. Para aprender más de como integrar tu sitio web con khipu visita la documentación de la API de khipu
+
+Id de cobrador: 358870
+Llave: fb85c74f76e3b5e57558c2f76042468abc7b9389

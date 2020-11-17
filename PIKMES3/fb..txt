@@ -1,0 +1,8 @@
+id
+1760545024095096
+
+clave
+e188cbb30689660800bb8b2f9f6fa632
+
+
+https://pikme-75f88.firebaseapp.com/__/auth/handler
