@@ -1,0 +1,35 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<br>
+<h2>CHECK OUT</h2>
+<br>
+<div class="container">
+
+<div class="row" *ngIf="cart$ | async as cart">
+
+  <div class="col-12">
+    <shopping-cart-summary [cart]="cart"></shopping-cart-summary>
+  </div>
+
+
+<div class="container">
+  <div class="card" >
+<br>
+<div class="card-body">
+
+<h3 class="card-title">Datos para despacho</h3>
+
+
+
+  <div class="col-12">
+
+    <shipping-form [cart]="cart"></shipping-form>
+  </div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<br>

@@ -1,0 +1,33 @@
+.btn-group-sm{
+display: none;
+
+}
+.btn-primary {
+    background-color: #30BE76!important;
+    border-color: #30BE76!important;
+    font-family: 'Nunito', sans-serif;
+
+}
+.btn-success {
+    background-color: #30BE76!important;
+    border-color: #30BE76!important;
+    font-family: 'Nunito', sans-serif;
+
+}
+p{
+
+    font-family: 'Nunito', sans-serif;
+}
+
+h3{
+
+    font-family: 'Nunito', sans-serif;
+}
+
+data-table{
+    font-family: 'Nunito', sans-serif;   
+}
+
+a{
+    color: #30BE76!important; 
+}

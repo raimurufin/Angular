@@ -1,0 +1,35 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+ <!--carrusel no full width
+
+
+   <app-carrusel></app-carrusel>
+ -->
+ <div class="wrapper fadeInDown">
+
+  <div class="container">
+    <br>
+  <h1>Productos</h1>
+  <br>
+  </div>
+  <div class="fadeIn first">
+  <div class="container">
+          <div class="row" *ngIf="cart$ | async as cart">
+              <div class="container">
+                
+                <product-filter [category]="category" ></product-filter>
+  
+                      <br>
+                      <br>
+               </div>
+                <div class="col-md-4" *ngFor="let p of filteredProducts; let i = index">
+                  <product-card [product]="p" [shopping-cart]="cart"></product-card>
+              </div>
+              <div *ngIf="(i + 1) % 2 === 0" class="w-100"></div>
+  
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>

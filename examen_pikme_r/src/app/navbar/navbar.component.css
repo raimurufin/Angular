@@ -1,0 +1,19 @@
+
+
+.bg-success {
+    background-color: #30BE76!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+}
+
+a {
+    font-family: 'Nunito', sans-serif;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color:white;
+    text-decoration: none;
+    background-color: #30BE76!important;
+}

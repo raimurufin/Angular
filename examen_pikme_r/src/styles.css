@@ -1,0 +1,14 @@
+.btn-group-sm{
+display: none;
+
+}
+
+.btn-sm{
+display: none;
+
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"), url(./assets/fonts/nunito/Nunito-Regular.ttf) format("truetype");
+}

@@ -1,0 +1,48 @@
+.divider{
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+
+.btn.btn-primary{
+
+  position: absolute;
+  right: 120px;
+  background-color: #30BE76!important;
+    border-color: #30BE76!important;
+}
+
+.btn.btn-danger{
+
+
+
+    position: absolute;
+    right: 15px;
+
+}
+
+.btn.btn-success{
+
+  
+  background-color: #30BE76!important;
+    border-color: #30BE76!important;
+}
+
+label{
+  font-family: 'Nunito', sans-serif;
+}
+
+.input-group-text{
+  font-family: 'Nunito', sans-serif;
+
+}
+.ngModel{
+  font-family: 'Nunito', sans-serif;}
+
+  col-12{
+    font-family: 'Nunito', sans-serif; 
+  }
+
+  .container{
+    font-family: 'Nunito', sans-serif!important; 
+  }

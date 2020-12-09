@@ -1,0 +1,35 @@
+.img-thumbnail{
+    width: 80px;
+
+    height: 60px;
+    overflow: auto;
+}
+.btn-success {
+    background-color: #30BE76!important;
+    border-color: #30BE76!important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary {
+    background-color: #30BE76!important;
+    border-color: #30BE76!important;
+    font-family: 'Nunito', sans-serif;
+
+}
+h1{
+
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+
+    font-family: 'Nunito', sans-serif;
+}
+td{
+
+    font-family: 'Nunito', sans-serif;
+}
+th{
+
+    font-family: 'Nunito', sans-serif;
+}
